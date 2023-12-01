@@ -1,0 +1,17 @@
+html {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+}
+
+.custom-corner {
+	border-radius: 24px;
+}
+
+.custom-corner-nav {
+	border-radius: 0px 24px 0px 24px;
+}
+
+.custom-shadow {
+	box-shadow: 1px 1px 1px 1px gray;
+}
