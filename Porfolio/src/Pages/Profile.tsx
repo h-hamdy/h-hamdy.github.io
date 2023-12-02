@@ -11,7 +11,7 @@ export function Profile() {
 
   return (
     <>
-      <div className="flex gap-[15px] w-screen">
+      <div className="flex gap-[15px] w-screen overflow-hidden">
         <div className="border border-[#282929] h-full bg-[#282929] custom-corner shadow-lg w-full">
           <div className="flex justify-end">
             <div className="flex items-center justify-around border border-[#535555] bg-[#535555] w-[600px] h-[55px] custom-corner-nav">
@@ -32,15 +32,18 @@ export function Profile() {
               </Link>
             </div>
           </div>
+		  {/* <div className="h-full overflow-y-auto overflow-hidden pb-10"> */}
+
 			{
 				page === 1 && <About/> ||
 				page === 2 && <Resume/> ||
-				page === 3 && <Portfolio/> ||
+				page === 3 && <Portfolio/> ||	
 				page === 4 && <Blog/> ||
 				page === 5 && <Contact/>
-		  	}
+			}
+			</div>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 }

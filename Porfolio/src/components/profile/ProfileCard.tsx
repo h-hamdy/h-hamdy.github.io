@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function ProfileCard () {
 	return (
 		<>
@@ -51,18 +53,30 @@ export function ProfileCard () {
 				</div>
 				<div className="border w-full rounded-xl border-[#535555] bg-[#535555]"></div>
 				<div className="pt-[15px] flex items-center gap-[15px] justify-center">
+					<a href="https://www.linkedin.com/in/houssam-hamdy-393792232/">
+						<button className="w-[25px]">
+							<img src="/src/assets/linkedin.png">
+							</img>
+						</button>
+					</a>
+					<a href="https://github.com/h-hamdy">
+						<button className="w-[25px]">
+							<img src="/src/assets/github.png">
+							</img>
+						</button>
+					</a>
+					<a href="https://medium.com/@houssamhamdy223">
+						<button className="w-[25px]">
+							<img src="/src/assets/medium.png">
+							</img>
+						</button>
+					</a>
+					<a href="https://leetcode.com/housssam/">
 					<button className="w-[25px]">
-						<img src="/src/assets/linkedin.png">
+						<img src="/src/assets/leetcode.png">
 						</img>
 					</button>
-					<button className="w-[25px]">
-						<img src="/src/assets/github.png">
-						</img>
-					</button>
-					<button className="w-[25px]">
-						<img src="/src/assets/medium.png">
-						</img>
-					</button>
+					</a>
 				</div>
 				</div>
 				</div>
