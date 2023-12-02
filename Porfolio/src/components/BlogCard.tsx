@@ -10,11 +10,11 @@ export function BlogCard ( {link, img, time, title, desc}: Props ) {
 	return (
 		<>
 			<a href={link}>
-				<div className="h-full overflow-y-auto overflow-hidden pb-40 px-10">
-					<div className="w-[300px] h-[300px] bg-[#535555] custom-corner">
+				<div className="h-full overflow-y-auto overflow-hidden">
+					<div className="w-[300px] h-[300px] bg-[#535555] shadow-2xl custom-corner">
 
 					<div className="flex items-center justify-center bg-white custom-corner w-[300px] h-[200px]">
-						<img src={img} className="w-full h-[200px]" alt="Tree Image" />
+						<img src={img} className="w-full h-[200px] custom-corner object-fit" alt="Tree Image" />
 					</div>
 					<div className="p-4">
 					<div className="text-xs text-gray-400">{time}</div>

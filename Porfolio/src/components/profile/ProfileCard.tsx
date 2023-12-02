@@ -1,12 +1,10 @@
-import { Link } from "react-router-dom";
-
 export function ProfileCard () {
 	return (
 		<>
 			<div className="flex flex-col items-center justify-around gap-[15px] p-10">
-					<img className="border border-[#535555] bg-[#535555] custom-corner w-[120px] h-[120px]" src="https://cdn.intra.42.fr/users/0d6b52298379f4824e232a37e7049fac/hhamdy.jpg"/>
-					<div className="text-gray-200 text-xl font-semibold tracking-wider">Houssam Hamdy</div>
-					<div className="flex items-center justify-center w-[120px] h-[23px] bg-[#535555] text-xs font-semibold text-gray-100 rounded-lg">Software enginner</div>
+					<img className="border border-[#535555] bg-[#535555] custom-corner w-[120px] h-[120px] shadow-xl" src="https://cdn.intra.42.fr/users/0d6b52298379f4824e232a37e7049fac/hhamdy.jpg"/>
+					<div className="text-gray-200 text-xl font-semibold tracking-wider ">Houssam Hamdy</div>
+					<div className="flex items-center justify-center w-[120px] h-[23px] bg-[#535555] text-xs font-semibold text-gray-100 rounded-lg shadow-xl">Software enginner</div>
 				</div>
 				<div className="px-10">
 				<div className="border w-full rounded-xl border-[#535555] bg-[#535555]"></div>
@@ -15,7 +13,7 @@ export function ProfileCard () {
 
 				<div className="flex items-center gap-[15px] text-white">
 
-					<div className="flex items-center justify-center border w-[50px] h-[50px] rounded-lg bg-[#535555] border-[#535555] shadow-inner">
+					<div className="flex items-center justify-center border w-[50px] h-[50px] rounded-lg bg-[#535555] border-[#535555] shadow-xl">
 						<img className="w-[30px] h-[30px]" src="/src/assets/Email.png"></img>
 					</div>
 					<div className="flex flex-col">
@@ -24,7 +22,7 @@ export function ProfileCard () {
 					</div>
 				</div>
 				<div className="flex items-center gap-[15px] text-white">
-				<div className="flex items-center justify-center border w-[50px] h-[50px] rounded-lg bg-[#535555] border-[#535555] shadow-inner">
+				<div className="flex items-center justify-center border w-[50px] h-[50px] rounded-lg bg-[#535555] border-[#535555] shadow-xl">
 						<img className="w-[30px] h-[30px]" src="/src/assets/phone.png"></img>
 					</div>
 					<div className="flex flex-col">
@@ -33,7 +31,7 @@ export function ProfileCard () {
 					</div>
 				</div>
 				<div className="flex items-center gap-[15px] text-white">
-				<div className="flex items-center justify-center border w-[50px] h-[50px] rounded-lg bg-[#535555] border-[#535555] shadow-inner">
+				<div className="flex items-center justify-center border w-[50px] h-[50px] rounded-lg bg-[#535555] border-[#535555] shadow-xl">
 						<img className="w-[30px] h-[30px]" src="/src/assets/birthday.png"></img>
 					</div>
 					<div className="flex flex-col">
@@ -42,7 +40,7 @@ export function ProfileCard () {
 					</div>
 				</div>
 				<div className="flex items-center gap-[15px] pb-[15px] text-white">
-				<div className="flex items-center justify-center border w-[50px] h-[50px] rounded-lg bg-[#535555] border-[#535555] shadow-inner">
+				<div className="flex items-center justify-center border w-[50px] h-[50px] rounded-lg bg-[#535555] border-[#535555] shadow-xl">
 						<img className="w-[30px] h-[30px]" src="/src/assets/location.png"></img>
 					</div>
 					<div className="flex flex-col">

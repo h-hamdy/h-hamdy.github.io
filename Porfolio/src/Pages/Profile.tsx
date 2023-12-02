@@ -18,9 +18,9 @@ export function Profile() {
               <Link to="/">
                 <button className="text-gray-300" onClick={() => setPage(1)}>About</button>
               </Link>
-              <Link to="/Resume">
+              {/* <Link to="/Resume">
                 <button className="text-gray-300" onClick={() => setPage(2)}>Resume</button>
-              </Link>
+              </Link> */}
               <Link to="/Portfolio">
                 <button className="text-gray-300" onClick={() => setPage(3)}>Portfolio</button>
               </Link>
