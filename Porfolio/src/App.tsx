@@ -9,7 +9,7 @@ function App() {
 	<div className="flex gap-[15px] w-screen h-screen p-[30px]">
 
 
-		<div className="border border-[#282929] h-full bg-[#282929] custom-corner shadow-lg w-3/12">
+		<div className="border border-[#282929] h-full bg-[#282929] custom-corner shadow-xl w-3/12">
           <ProfileCard />
         </div>
       <BrowserRouter>

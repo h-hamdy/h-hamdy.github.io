@@ -14,7 +14,7 @@ export function Profile() {
       <div className="flex gap-[15px] w-screen overflow-hidden">
         <div className="border border-[#282929] h-full bg-[#282929] custom-corner shadow-lg w-full">
           <div className="flex justify-end">
-            <div className="flex items-center justify-around border border-[#535555] bg-[#535555] w-[600px] h-[55px] custom-corner-nav">
+            <div className="flex items-center justify-around shadow-xl border border-[#535555] bg-[#535555] w-[600px] h-[55px] custom-corner-nav">
               <Link to="/">
                 <button className="text-gray-300" onClick={() => setPage(1)}>About</button>
               </Link>

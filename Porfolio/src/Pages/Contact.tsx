@@ -7,7 +7,9 @@ export function Contact () {
 					<div className="border border-[1px] rounded-lg border-[#535555] w-[50px]"></div>
 				</div>
 			</div>
-			<div className="flex flex-col gap-[15px] items-center justify-center">
+			{/* <div className="flex items-center justify-center h-full"> */}
+
+			<div className="flex flex-col gap-[15px] items-center justify-center h-[80%]">
 				<div className="flex gap-[15px]">
 					<input className="bg-[#535555] border hover:border-[2px] h-[50px] w-[400px] rounded-xl px-4 text-white shadow-xl	" placeholder="Full Name" style={{ outline: 'none' }}></input>
 					<input className="bg-[#535555] border hover:border-[2px] h-[50px] w-[400px] rounded-xl px-4 text-white shadow-xl" placeholder="Email address" style={{ outline: 'none' }}></input>
@@ -17,6 +19,7 @@ export function Contact () {
 					<button className="flex items-center justify-center w-[180px] h-[50px] bg-[#535555] rounded-lg text-white shadow-xl font-bold tracking-wider">Send Email</button>
 				</div>
 			</div>
+			{/* </div> */}
 		</>
 	)
 }

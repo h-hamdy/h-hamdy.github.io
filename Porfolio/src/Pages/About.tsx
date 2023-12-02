@@ -1,11 +1,14 @@
 export function About () {
 	return (
 		<>
-			<div className="text-gray-200 text-2xl p-10">
+			<div className="flex items-center justify-between text-gray-200 text-2xl p-10">
 				<div className="flex flex-col">
 					<div className="font-semibold">About</div>
 					<div className="border border-[1px] rounded-lg border-[#535555] w-[50px]"></div>
 				</div>
+				<a href="/src/assets/Cv.pdf">
+					<button className="flex items-center justify-center w-[150px] h-[40px] tracking-wide rounded-lg text-sm bg-[#535555] shadow-xl">Download Cv</button>
+				</a>
 			</div>
 			<div className="h-full overflow-y-auto overflow-hidden pb-40">
 			<div className="flex px-10 text-gray-200 text-center overflow-y-auto tracking-wide">
