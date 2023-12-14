@@ -14,21 +14,18 @@ export function Profile() {
       <div className="flex gap-[15px] w-screen overflow-hidden">
         <div className="border border-[#282929] h-full bg-[#282929] custom-corner shadow-lg w-full">
           <div className="flex justify-end">
-            <div className="flex items-center justify-around shadow-xl border border-[#535555] bg-[#535555] w-[600px] h-[55px] custom-corner-nav">
+            <div className="flex items-center justify-around shadow-xl border border-[#343838] bg-[#343838] w-[600px] h-[55px] custom-corner-nav">
               <Link to="/">
-                <button className="text-gray-300" onClick={() => setPage(1)}>About</button>
+                <button className={`text-[${page === 1 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold `} onClick={() => setPage(1)}>About</button>
               </Link>
-              {/* <Link to="/Resume">
-                <button className="text-gray-300" onClick={() => setPage(2)}>Resume</button>
-              </Link> */}
               <Link to="/Portfolio">
-                <button className="text-gray-300" onClick={() => setPage(3)}>Portfolio</button>
+                <button className={`text-[${page === 3 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(3)}>Portfolio</button>
               </Link>
               <Link to="/Blog">
-                <button className="text-gray-300" onClick={() => setPage(4)}>Blog</button>
+                <button className={`text-[${page === 4 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(4)}>Blog</button>
               </Link>
               <Link to="/Contact">
-                <button className="text-gray-300" onClick={() => setPage(5)}>Contact</button>
+                <button className={`text-[${page === 5 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(5)}>Contact</button>
               </Link>
             </div>
           </div>
