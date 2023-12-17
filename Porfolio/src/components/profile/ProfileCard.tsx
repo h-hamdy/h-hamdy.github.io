@@ -10,10 +10,15 @@ export function ProfileCard() {
 
 			<div className="lg:hidden block p-[20px] absolute right-0 top-0">
 			<div className="w-[26px] flex items-center justify-center h-[30px] bg-[#343838] rounded-tr-[15px] rounded-bl-[15px] shadown-lg" onClick={() => setshow(!show)}>
-
-			<button className=" w-[12px] h-[12px]">
+			{
+				show ? 
+				<button className=" w-[12px] h-[12px]">
+					<img src="/src/assets/up.png"></img>
+				</button>
+				: <button className=" w-[12px] h-[12px]">
 				<img src="/src/assets/down.png"></img>
 			</button>
+			}
 			</div>
 			</div>
 

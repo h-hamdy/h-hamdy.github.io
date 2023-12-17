@@ -1,14 +1,14 @@
 export function Contact() {
   return (
     <>
-      <div className="text-gray-200 text-2xl p-10">
+      <div className="text-gray-200 text-2xl lg:p-10 p-6">
         <div className="flex flex-col">
           <div className="font-semibold">Contact Form</div>
           <div className="border border-[1px] rounded-lg border-[#4e77e7] w-[50px]"></div>
         </div>
       </div>
 
-      <div className="flex flex-col gap-[15px] items-center justify-center h-[80%] overflow-y-hidden">
+      <div className="flex flex-col gap-[15px] items-center justify-center  h-[80%] overflow-y-auto pb-[10%] lg:pt-0">
         <div className="flex flex-col justify-center lg:flex-row gap-[15px] w-full px-5">
           <input
             className="bg-[#343838] border hover:border-[2px] h-[50px] hover:border-[#4e77e7] w-full lg:w-[330px] xl:w-[400px] rounded-xl px-5 text-white shadow-xl"
@@ -29,7 +29,7 @@ export function Contact() {
           style={{ outline: "none" }}
 		  ></textarea>
 		  </div>
-        <div className="pt-10">
+        <div className="lg:pt-10">
           <button className="text-white flex items-center justify-center w-[170px] h-[45px] tracking-wide rounded-lg text-sm bg-[#4e77e7] shadow-xl font-bold transform transition-transform duration-300 hover:scale-110">
             Send Email
           </button>

@@ -1,12 +1,12 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Profile } from "./Pages/Profile";
 import { ProfileCard } from "./components/profile/ProfileCard";
 import { useState } from "react";
 import { About } from "./Pages/About";
-import { Contact } from "./Pages/Contact";
-import { Blog } from "./Pages/Blog";
 import { Portfolio } from "./Pages/Portfolio";
+import { Blog } from "./Pages/Blog";
+import { Contact } from "./Pages/Contact";
 
 function App() {
 	const [page, setPage] = useState(1);
@@ -20,16 +20,29 @@ function App() {
 		<div className="border border-[#282929]  bg-[#282929] custom-corner shadow-xl lg:w-3/12 h-fit lg:h-full w-full">
           <ProfileCard />
         </div>
+      <BrowserRouter>
 		<div className="border flex items-center justify-around h-[8%] rounded-tl-[24px] shadow-xl rounded-tr-[24px] absolute w-full bottom-0 right-0 bg-[#343838] border-[#343838] lg:hidden z-50">
-			<button className={`text-[${page === 1 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 text-sm lg:text-md hover:scale-110 font-bold `} onClick={() => setPage(1)}>About</button>
-			<button className={`text-[${page === 3 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 text-sm lg:text-md hover:scale-110 font-bold`} onClick={() => setPage(3)}>Portfolio</button>
-			<button className={`text-[${page === 4 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 text-sm lg:text-md hover:scale-110 font-bold`} onClick={() => setPage(4)}>Blog</button>
-			<button className={`text-[${page === 5 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 text-sm lg:text-md  hover:scale-110 font-bold`} onClick={() => setPage(5)}>Contact</button>
+		<Link to="/">
+                <button className={`text-[${page === 1 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold `} onClick={() => setPage(1)}>About</button>
+			  </Link>
+              <Link to="/Portfolio">
+                <button className={`text-[${page === 3 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(3)}>Portfolio</button>
+              </Link>
+              <Link to="/Blog">
+                <button className={`text-[${page === 4 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(4)}>Blog</button>
+              </Link>
+              <Link to="/Contact">
+                <button className={`text-[${page === 5 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(5)}>Contact</button>
+              </Link>
 		</div>
 		<div className="border h-full lg:hidden custom-corner bg-[#282929] border-[#282929] overflow-y-hidden pb-[10%]">
-			<Blog/>
+		{
+				page === 1 && <About/> ||
+				page === 3 && <Portfolio/> ||	
+				page === 4 && <Blog/> ||
+				page === 5 && <Contact/>
+			}
 		</div>
-      <BrowserRouter>
         <Routes>
 			<Route path="/" element={<Profile />}></Route>
 			<Route path="/Resume" element={<Profile />}></Route>
