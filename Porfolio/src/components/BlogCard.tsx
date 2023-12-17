@@ -11,7 +11,7 @@ export function BlogCard({ link, img, time, title, desc }: Props) {
     <>
       <a
         href={link}
-        className="hover:scale-110 transition-transform duration-300 pt-10"
+        className="hover:scale-110 transition-transform duration-300 lg:pt-10"
       >
         <div className="h-full overflow-y-auto overflow-hidden">
           <div className="w-[300px] h-[300px] bg-[#343838] shadow-2xl custom-corner transform card-container">

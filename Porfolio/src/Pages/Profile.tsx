@@ -11,7 +11,7 @@ export function Profile() {
 
   return (
     <>
-      <div className="flex gap-[15px] w-screen overflow-hidden">
+      <div className="flex gap-[15px] w-screen border border-[#343838] custom-corner overflow-hidden lg:block hidden">
         <div className="border border-[#282929] h-full bg-[#282929] custom-corner shadow-lg w-full">
           <div className="flex justify-end">
             <div className="flex items-center justify-around shadow-xl border border-[#343838] bg-[#343838] w-[600px] h-[55px] custom-corner-nav">
@@ -29,8 +29,6 @@ export function Profile() {
               </Link>
             </div>
           </div>
-		  {/* <div className="h-full overflow-y-auto overflow-hidden pb-10"> */}
-
 			{
 				page === 1 && <About/> ||
 				page === 2 && <Resume/> ||
@@ -40,7 +38,6 @@ export function Profile() {
 			}
 			</div>
         </div>
-      {/* </div> */}
     </>
   );
 }
