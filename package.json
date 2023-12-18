@@ -1,10 +1,13 @@
 {
+ "homepage": "https://h-hamdy.github.io/Porfolio/",
   "name": "porfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+	"predeploy" : "npm run build",
+	"deploy": "gh-pages -d build",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -22,6 +25,7 @@
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "gh-pages": "^6.1.0",
     "react-router-dom": "^6.20.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
