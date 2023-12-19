@@ -25,7 +25,7 @@ export function Contact() {
 
         <textarea
           className="bg-[#343838] border hover:border-[2px] h-[120px] hover:border-[#4e77e7] w-full lg:w-[670px] xl:w-[800px] rounded-xl px-4 p-5 text-white shadow-xl"
-          placeholder="Email address"
+          placeholder="Write Your Message"
           style={{ outline: "none" }}
 		  ></textarea>
 		  </div>
