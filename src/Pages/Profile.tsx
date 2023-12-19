@@ -15,10 +15,10 @@ export function Profile() {
         <div className="border border-[#282929] h-full bg-[#282929] custom-corner shadow-lg w-full">
           <div className="flex justify-end">
             <div className="flex items-center justify-around shadow-xl border border-[#343838] bg-[#343838] w-[600px] h-[55px] custom-corner-nav">
-              <Link to="/">
+              <Link to="/Porfolio">
                 <button className={`text-[${page === 1 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold `} onClick={() => setPage(1)}>About</button>
               </Link>
-              <Link to="/Portfolio">
+              <Link to="/Projects">
                 <button className={`text-[${page === 3 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(3)}>Portfolio</button>
               </Link>
               <Link to="/Blog">
