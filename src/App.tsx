@@ -22,7 +22,7 @@ function App() {
         </div>
       <BrowserRouter>
 		<div className="border flex items-center justify-around h-[6%] rounded-tl-[24px] shadow-xl rounded-tr-[24px] absolute w-full bottom-0 right-0 bg-[#343838] border-[#343838] lg:hidden z-50">
-			<Link to="/">
+			<Link to="/Porfolio">
                 <button className={`text-[${page === 1 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold `} onClick={() => setPage(1)}>About</button>
 			  </Link>
               <Link to="/Projects">
@@ -44,7 +44,7 @@ function App() {
 			}
 		</div>
         <Routes>
-			<Route path="/" element={<Profile />}></Route>
+			<Route path="/Porfolio" element={<Profile />}></Route>
 			<Route path="/Resume" element={<Profile />}></Route>
 			<Route path="/Projects" element={<Profile />}></Route>
 			<Route path="/Blog" element={<Profile />}></Route>
