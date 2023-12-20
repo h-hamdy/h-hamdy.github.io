@@ -8,8 +8,8 @@ export function ProfileCard() {
       <div className="flex flex-col items-center gap-[20px] lg:justify-center pt-[16px] lg:pt-0 lg:h-full border border-[#343838] custom-corner px-10">
         <div className={`flex lg:flex-col flex-row items-center justify-around gap-[15px] ${show ? "" : "pb-[15px]"}`}>
 
-			<div className="lg:hidden block p-[12px] absolute right-0 top-0">
-			<div className="w-[36px] flex items-center justify-center h-[40px] bg-[#343838] rounded-tr-[18px] rounded-bl-[18px] shadown-lg" onClick={() => setshow(!show)}>
+			<div className="lg:hidden block p-[10px] absolute right-0 top-0">
+			<div className="w-[36px] flex items-center justify-center h-[40px] bg-[#343838] rounded-tr-[20px] rounded-bl-[20px] shadown-lg" onClick={() => setshow(!show)}>
 			{
 				show ? 
 				<button className=" w-[16px] h-[16px]">
