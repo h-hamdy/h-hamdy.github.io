@@ -13,10 +13,10 @@ export function ProfileCard() {
 			{
 				show ? 
 				<button className=" w-[12px] h-[12px]">
-					<img src="/src/assets/up.png"></img>
+					<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/up.png"></img>
 				</button>
 				: <button className=" w-[12px] h-[12px]">
-				<img src="/src/assets/down.png"></img>
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/down.png"></img>
 			</button>
 			}
 			</div>
@@ -38,7 +38,7 @@ export function ProfileCard() {
         </div>
 		{
 			show && 
-			<div className="lg:hidden">
+			<div className="lg:hidden pb-[10px]">
 
 			<div className="flex flex-col gap-[15px]">
 				<div className="border w-full rounded-xl border-[#343838] bg-[#343838]"></div>
@@ -47,7 +47,7 @@ export function ProfileCard() {
 				<div className="flex items-center justify-center border xl:w-[50px] xl:h-[50px] w-[40px] h-[40px] rounded-lg bg-[#343838] border-[#343838] shadow-xl">
 					<img
 					className="xl:w-[30px] xl:h-[30px] w-[25px] h-[25px]"
-					src="/src/assets/email.png"
+					src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/email.png"
 					></img>
 				</div>
 				<div className="flex flex-col">
@@ -59,7 +59,7 @@ export function ProfileCard() {
 				<div className="flex items-center justify-center border xl:w-[50px] xl:h-[50px] w-[40px] h-[40px] rounded-lg bg-[#343838] border-[#343838] shadow-xl">
 					<img
 					className="xl:w-[30px] xl:h-[30px] w-[25px] h-[25px]"
-					src="/src/assets/phone.png"
+					src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/phone.png"
 					></img>
 				</div>
 				<div className="flex flex-col">
@@ -71,7 +71,7 @@ export function ProfileCard() {
 				<div className="flex items-center justify-center border  xl:w-[50px] xl:h-[50px] w-[40px] h-[40px] rounded-lg bg-[#343838] border-[#343838] shadow-xl">
 					<img
 					className="xl:w-[30px] xl:h-[30px] w-[25px] h-[25px]"
-					src="/src/assets/location.png"
+					src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/location.png"
 					></img>
 				</div>
 				<div className="flex flex-col">
@@ -84,22 +84,22 @@ export function ProfileCard() {
 			<div className="flex items-center gap-[15px] pt-[15px] justify-center">
 			<a href="https://www.linkedin.com/in/houssam-hamdy-393792232/">
 				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110">
-				<img src="/src/assets/linkedin.png"></img>
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/linkedin.png"></img>
 				</button>
 			</a>
 			<a href="https://github.com/h-hamdy">
 				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110">
-				<img src="/src/assets/github.png"></img>
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/github.png"></img>
 				</button>
 			</a>
 			<a href="https://medium.com/@houssamhamdy223">
 				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110">
-				<img src="/src/assets/medium.png"></img>
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/medium.png"></img>
 				</button>
 			</a>
 			<a href="https://leetcode.com/housssam/">
-				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110 pb-[20px] lg:pb-0">
-				<img src="/src/assets/leetcode.png"></img>
+				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110  lg:pb-0">
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/leetcode.png"></img>
 				</button>
 			</a>
 			</div>
@@ -113,7 +113,7 @@ export function ProfileCard() {
 				<div className="flex items-center justify-center border xl:w-[50px] xl:h-[50px] w-[40px] h-[40px] rounded-lg bg-[#343838] border-[#343838] shadow-xl">
 					<img
 					className="xl:w-[30px] xl:h-[30px] w-[25px] h-[25px]"
-					src="/src/assets/email.png"
+					src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/email.png"
 					></img>
 				</div>
 				<div className="flex flex-col">
@@ -125,7 +125,7 @@ export function ProfileCard() {
 				<div className="flex items-center justify-center border xl:w-[50px] xl:h-[50px] w-[40px] h-[40px] rounded-lg bg-[#343838] border-[#343838] shadow-xl">
 					<img
 					className="xl:w-[30px] xl:h-[30px] w-[25px] h-[25px]"
-					src="/src/assets/phone.png"
+					src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/phone.png"
 					></img>
 				</div>
 				<div className="flex flex-col">
@@ -137,7 +137,7 @@ export function ProfileCard() {
 				<div className="flex items-center justify-center border  xl:w-[50px] xl:h-[50px] w-[40px] h-[40px] rounded-lg bg-[#343838] border-[#343838] shadow-xl">
 					<img
 					className="xl:w-[30px] xl:h-[30px] w-[25px] h-[25px]"
-					src="/src/assets/location.png"
+					src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/location.png"
 					></img>
 				</div>
 				<div className="flex flex-col">
@@ -150,22 +150,22 @@ export function ProfileCard() {
 			<div className="flex items-center gap-[15px] pt-[15px] justify-center">
 			<a href="https://www.linkedin.com/in/houssam-hamdy-393792232/">
 				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110">
-				<img src="/src/assets/linkedin.png"></img>
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/linkedin.png"></img>
 				</button>
 			</a>
 			<a href="https://github.com/h-hamdy">
 				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110">
-				<img src="/src/assets/github.png"></img>
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/github.png"></img>
 				</button>
 			</a>
 			<a href="https://medium.com/@houssamhamdy223">
 				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110">
-				<img src="/src/assets/medium.png"></img>
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/medium.png"></img>
 				</button>
 			</a>
 			<a href="https://leetcode.com/housssam/">
 				<button className="w-[25px] transform transition-transform duration-300 hover:scale-110 pb-[20px] lg:pb-0">
-				<img src="/src/assets/leetcode.png"></img>
+				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/leetcode.png"></img>
 				</button>
 			</a>
 			</div>

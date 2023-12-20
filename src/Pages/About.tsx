@@ -6,7 +6,7 @@ export function About() {
           <div className="font-semibold">About</div>
           <div className="border border-[1px] rounded-lg border-[#4e77e7] w-[50px]"></div>
         </div>
-        <a href="/src/assets/Cv.pdf">
+        <a href="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/Cv.pdf">
           <button className="flex items-center justify-center lg:w-[150px] lg:h-[40px] w-[120px] h-[35px] tracking-wide rounded-lg text-sm bg-[#4e77e7] hover:bg-[#4e77e7] shadow-xl font-bold transform transition-transform duration-300 hover:scale-110">
             Download Cv
           </button>
@@ -30,7 +30,7 @@ export function About() {
             <div className="flex items-center justify-center border lg:w-[50px] lg:h-[50px] w-[35px] h-[35px]  rounded-lg bg-[#343838] border-[#343838] shadow-inner">
               <img
                 className="lg:w-[32px] lg:h-[32px] w-[25px] h-[25px]"
-                src="/src/assets/education.png"
+                src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/education.png"
               ></img>
             </div>
             <div className="text-gray-200 lg:text-xl font-semibold tracking-wider">
@@ -40,7 +40,7 @@ export function About() {
           <div className="lg:pl-28 pl-10 px-6 py-6 text-white">
             <div className="flex gap-[15px]">
               <img
-                src="/src/assets/1337.png"
+                src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/1337.png"
                 className="lg:w-[70px] lg:h-[70px] w-[40px] h-[40px] rounded-lg "
               ></img>
               <div>
@@ -63,7 +63,7 @@ export function About() {
           <div className="flex items-center justify-center border lg:w-[50px] lg:h-[50px] w-[35px] h-[35px]  rounded-lg bg-[#343838] border-[#343838] shadow-inner">
             <img
               className="lg:w-[32px] lg:h-[32px] w-[20px] h-[20px]"
-              src="/src/assets/certification.png"
+              src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/certification.png"
             ></img>
           </div>
           <div className="text-gray-200 lg:text-xl font-semibold tracking-wider">
@@ -76,7 +76,7 @@ export function About() {
           <div className="flex gap-[15px]">
             <div className="flex gap-[15px]">
               <img
-                src="/src/assets/ibm.png"
+                src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/ibm.png"
                 className="lg:w-[60px] lg:h-[60px] w-[40px] h-[40px] rounded-lg"
               ></img>
             </div>
@@ -98,7 +98,7 @@ export function About() {
           <div className="flex gap-[15px]">
             <div className="flex gap-[15px]">
               <img
-                src="/src/assets/simpli.jpg"
+                src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/simpli.jpg"
                 className="lg:w-[60px] lg:h-[60px] w-[40px] h-[40px] rounded-lg"
               ></img>
             </div>
@@ -120,7 +120,7 @@ export function About() {
           <div className="flex gap-[15px]">
             <div className="flex gap-[15px]">
               <img
-                src="/src/assets/coursera.png"
+                src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/coursera.png"
                 className="lg:w-[60px] lg:h-[60px] w-[40px] h-[40px] rounded-lg"
 				></img>
             </div>
