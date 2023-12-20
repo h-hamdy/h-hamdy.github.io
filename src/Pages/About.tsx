@@ -12,7 +12,7 @@ export function About() {
           </button>
         </a>
       </div>
-      <div className="h-full overflow-y-auto lg:pb-40">
+      <div className="h-[90%] overflow-y-auto lg:pb-40">
         <div className="flex lg:px-10 px-6 text-gray-200 text-center overflow-y-auto text-sm lg:text-md lg:tracking-wider">
           Hello! I'm Houssam Hamdy, a front-end developer fully committed to my
           software engineering studies at 1337. Driven by self-discipline and a
@@ -124,7 +124,7 @@ export function About() {
                 className="lg:w-[60px] lg:h-[60px] w-[40px] h-[40px] rounded-lg"
 				></img>
             </div>
-            <div className="pb-20 lg:pb-0">
+            <div className="">
               <div className="lg:text-md text-sm">Smart Contracts</div>
               <div className="text-xs text-[#343838]">Coursera</div>
               <div className="text-xs text-[#343838] pb-[5px]">
