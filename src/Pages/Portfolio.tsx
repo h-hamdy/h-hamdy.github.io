@@ -6,7 +6,7 @@ export function Portfolio () {
 			<div className="text-gray-200 text-2xl lg:p-10 p-6 pb-10">
 				<div className="flex flex-col">
 					<div className="font-semibold">Projets</div>
-					<div className="border border-[1px] rounded-lg border-[#4e77e7] w-[50px]"></div>
+					<div className="border border-[1px] rounded-lg border-[#4e77e7] w-[78px]"></div>
 				</div>
 			</div>
 			<div className="flex flex-wrap  h-full w-full lg:gap-[50px] justify-center lg:justify-start gap-[20px] overflow-y-auto overflow-hidden lg:pb-48 pb-32 lg:px-10">

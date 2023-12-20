@@ -4,7 +4,7 @@ export function Contact() {
       <div className="text-gray-200 text-2xl lg:p-10 p-6">
         <div className="flex flex-col">
           <div className="font-semibold">Contact Form</div>
-          <div className="border border-[1px] rounded-lg border-[#4e77e7] w-[50px]"></div>
+          <div className="border border-[1px] rounded-lg border-[#4e77e7] w-[145px]"></div>
         </div>
       </div>
 
