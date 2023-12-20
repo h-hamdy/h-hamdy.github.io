@@ -9,13 +9,13 @@ export function ProfileCard() {
         <div className={`flex lg:flex-col flex-row items-center justify-around gap-[15px] ${show ? "" : "pb-[15px]"}`}>
 
 			<div className="lg:hidden block p-[12px] absolute right-0 top-0">
-			<div className="w-[26px] flex items-center justify-center h-[30px] bg-[#343838] rounded-tr-[15px] rounded-bl-[15px] shadown-lg" onClick={() => setshow(!show)}>
+			<div className="w-[36px] flex items-center justify-center h-[40px] bg-[#343838] rounded-tr-[18px] rounded-bl-[18px] shadown-lg" onClick={() => setshow(!show)}>
 			{
 				show ? 
-				<button className=" w-[12px] h-[12px]">
+				<button className=" w-[16px] h-[16px]">
 					<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/up.png"></img>
 				</button>
-				: <button className=" w-[12px] h-[12px]">
+				: <button className=" w-[16px] h-[16px]">
 				<img src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/down.png"></img>
 			</button>
 			}
