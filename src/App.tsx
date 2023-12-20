@@ -35,7 +35,7 @@ function App() {
                 <button className={`text-[${page === 5 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(5)}>Contact</button>
               </Link>
 		</div>
-		<div className="border h-[90%] lg:hidden custom-corner bg-[#282929] border-[#282929] overflow-y-hidden pb-[30%]">
+		<div className="border h-[90%] lg:hidden custom-corner bg-[#282929] border-[#282929] overflow-y-hidden pb-[40%] lg:pb-0">
 		{
 				page === 1 && <About/> ||
 				page === 3 && <Portfolio/> ||	

@@ -6,7 +6,7 @@ export function About() {
           <div className="font-semibold">About</div>
           <div className="border border-[1px] rounded-lg border-[#4e77e7] w-[50px]"></div>
         </div>
-        <a href="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/Cv.pdf">
+        <a href="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/HoussamCv.pdf">
           <button className="flex items-center justify-center lg:w-[150px] lg:h-[40px] w-[120px] h-[35px] tracking-wide rounded-lg text-sm bg-[#4e77e7] hover:bg-[#4e77e7] shadow-xl font-bold transform transition-transform duration-300 hover:scale-110">
             Download Cv
           </button>
