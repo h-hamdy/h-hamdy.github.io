@@ -24,9 +24,9 @@ export function Profile() {
               <Link to="/Blog">
                 <button className={`text-[${page === 4 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(4)}>Blog</button>
               </Link>
-              <Link to="/Contact">
+              {/* <Link to="/Contact">
                 <button className={`text-[${page === 5 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(5)}>Contact</button>
-              </Link>
+              </Link> */}
             </div>
           </div>
 			{
