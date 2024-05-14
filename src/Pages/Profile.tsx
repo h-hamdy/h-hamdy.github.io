@@ -4,7 +4,7 @@ import { About } from "./About";
 import { Resume } from "./Resume";
 import { Portfolio } from "./Portfolio";
 import { Blog } from "./Blog";
-import { Contact } from "./Contact";
+// import { Contact } from "./Contact";
 
 export function Profile() {
   const [page, setPage] = useState(1);
@@ -33,8 +33,8 @@ export function Profile() {
 				page === 1 && <About/> ||
 				page === 2 && <Resume/> ||
 				page === 3 && <Portfolio/> ||	
-				page === 4 && <Blog/> ||
-				page === 5 && <Contact/>
+				page === 4 && <Blog/>
+				// page === 5 && <Contact/>
 			}
 			</div>
         </div>

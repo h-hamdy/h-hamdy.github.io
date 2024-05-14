@@ -6,7 +6,7 @@ import { useState } from "react";
 import { About } from "./Pages/About";
 import { Portfolio } from "./Pages/Portfolio";
 import { Blog } from "./Pages/Blog";
-import { Contact } from "./Pages/Contact";
+// import { Contact } from "./Pages/Contact";
 
 function App() {
 	const [page, setPage] = useState(1);
