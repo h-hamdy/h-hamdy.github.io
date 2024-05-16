@@ -12,9 +12,9 @@ export function About() {
           </button>
         </a>
       </div>
-      <div className="h-[90%] overflow-y-auto lg:pb-40">
+      <div className="h-[100%] overflow-y-auto lg:pb-40">
         <div className="flex lg:px-10 px-6 text-gray-200 text-center overflow-y-auto text-sm lg:text-md lg:tracking-wider">
-          Hello! I'm Houssam Hamdy, a front-end developer fully committed to my
+          Hello! I'm Houssam Hamdy, a Full-Stack developer fully committed to my
           software engineering studies at 1337. Driven by self-discipline and a
           passion for tackling real-world challenges, I enjoy delving into new
           technologies. My excitement spills over into the ever-evolving world
