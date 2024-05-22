@@ -45,7 +45,7 @@ export function About() {
               ></img>
               <div>
                 <div className="text-sm lg:text-md">1337 (42 Network), Benguerir</div>
-                <div className="text-xs text-[#343838]">
+                <div className="text-[11px] text-gray-400">
                   November 2021 - 2024
                 </div>
                 <div className="lg:text-sm text-xs text-gray-300 pt-[10px]">
@@ -62,7 +62,7 @@ export function About() {
               ></img>
               <div>
                 <div className="text-sm lg:text-md">UM6P - Mohammed VI Polytechnic University · Internship</div>
-                <div className="text-xs text-[#343838]">
+                <div className="text-[11px] text-gray-400">
                   Janvier 2024
                 </div>
                 <div className="lg:text-sm text-xs text-gray-300 pt-[10px]">
@@ -97,8 +97,8 @@ export function About() {
             </div>
             <div>
               <div className="lg:text-md text-sm">Blockchain Essentials</div>
-              <div className="text-xs text-[#343838]">IBM</div>
-              <div className="text-xs text-[#343838] pb-[5px]">
+              <div className="text-[11px] text-gray-400">IBM</div>
+              <div className="text-[11px] text-gray-400 pb-[5px]">
                 Issued on: November 5, 2022
               </div>
               <a href="https://courses.cognitiveclass.ai/certificates/71250c784c0c4e9fa24ba671b4777be4">
@@ -119,8 +119,8 @@ export function About() {
             </div>
             <div>
               <div className="lg:text-md text-sm">Blockchain Certification Training</div>
-              <div className="text-xs text-[#343838]">simplilearn</div>
-              <div className="text-xs text-[#343838] pb-[5px]">
+              <div className="text-[11px] text-gray-400">simplilearn</div>
+              <div className="text-[11px] text-gray-400 pb-[5px]">
                 Issued on: Septembre 27, 2022
               </div>
               <a href="https://simpli-web.app.link/e/I6kzeI3IbFb">
@@ -141,8 +141,8 @@ export function About() {
             </div>
             <div className="">
               <div className="lg:text-md text-sm">Smart Contracts</div>
-              <div className="text-xs text-[#343838]">Coursera</div>
-              <div className="text-xs text-[#343838] pb-[5px]">
+              <div className="text-[11px] text-gray-400">Coursera</div>
+              <div className="text-[11px] text-gray-400 pb-[5px]">
                 Issued on: Novembre 25, 2022
               </div>
               <a href="https://www.coursera.org/account/accomplishments/verify/UVUXGWNV59VB?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">
