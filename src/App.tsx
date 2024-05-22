@@ -25,10 +25,10 @@ function App() {
 			<Link to="/Portfolio">
                 <button className={`text-[${page === 1 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold `} onClick={() => setPage(1)}>About</button>
 			  </Link>
-              <Link to="/Projects">
+              <Link to="/Portfolio/Projects">
                 <button className={`text-[${page === 3 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(3)}>Portfolio</button>
               </Link>
-              <Link to="/Blog">
+              <Link to="/Portfolio/Blog">
                 <button className={`text-[${page === 4 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(4)}>Blog</button>
               </Link>
               {/* <Link to="/Contact">
@@ -46,8 +46,8 @@ function App() {
         <Routes>
 			<Route path="/Portfolio" element={<Profile />}></Route>
 			<Route path="/Resume" element={<Profile />}></Route>
-			<Route path="/Projects" element={<Profile />}></Route>
-			<Route path="/Blog" element={<Profile />}></Route>
+			<Route path="/Portfolio/Projects" element={<Profile />}></Route>
+			<Route path="/Portfolio/Blog" element={<Profile />}></Route>
 			{/* <Route path="/Contact" element={<Profile />}></Route> */}
         </Routes>
 	</BrowserRouter>

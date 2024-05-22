@@ -18,10 +18,10 @@ export function Profile() {
               <Link to="/Portfolio">
                 <button className={`text-[${page === 1 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold `} onClick={() => setPage(1)}>About</button>
               </Link>
-              <Link to="/Projects">
+              <Link to="/Portfolio/Projects">
                 <button className={`text-[${page === 3 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(3)}>Projects</button>
               </Link>
-              <Link to="/Blog">
+              <Link to="/Portfolio/Blog">
                 <button className={`text-[${page === 4 ? "#4e77e7" : "#e5e7eb"}] hover:text-[#4e77e7] duration-200 hover:scale-110 font-bold`} onClick={() => setPage(4)}>Blog</button>
               </Link>
               {/* <Link to="/Contact">
