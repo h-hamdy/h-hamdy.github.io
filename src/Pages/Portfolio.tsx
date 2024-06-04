@@ -13,7 +13,7 @@ export function Portfolio () {
 				<ProjectsCard link="https://github.com/h-hamdy/Webserv" img="https://www.computerscience.gcse.guru/wp-content/uploads/2016/11/webserver-e1479654596735.jpg" time="Ft_webserv" title="Implement HTTP server with C++" desc=""/>
 				<ProjectsCard link="https://github.com/h-hamdy/ft_transcendence" img="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/transcendence.png" time="ft_Transcendence" title="Cyber Pong is an Online Ping Pong Game"/>
 				<ProjectsCard link="https://github.com/h-hamdy/inception" img="https://github.com/h-hamdy/Portfolio/blob/main/src/assets/docker.png?raw=true" time="Inception" title="Exploring Docker: Virtualizing Images"/>
-				<ProjectsCard link="" img="src/assets/Splitz.png" time="Splitz" title="Splitz: Restaurant Bill and Order Management"/>
+				<ProjectsCard link="" img="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/Splitz.png" time="Splitz" title="Splitz: Restaurant Bill and Order Management"/>
 			</div>
 		</>
 	)
