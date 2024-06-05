@@ -48,8 +48,7 @@ function App() {
 			<Route path="/Resume" element={<Profile />}></Route>
 			<Route path="/Projects" element={<Profile />}></Route>
 			<Route path="/Blog" element={<Profile />}></Route>
-			<Route path="*" element={<Navigate to="/"/>}></Route>
-			{/* <Route path="/Contact" element={<Profile />}></Route> */}
+			{/* <Route path="*" element={<Navigate to="/"/>}></Route> */}
         </Routes>
 	</BrowserRouter>
 	</div>
