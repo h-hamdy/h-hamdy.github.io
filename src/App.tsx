@@ -48,6 +48,7 @@ function App() {
 			<Route path="/Resume" element={<Profile />}></Route>
 			<Route path="/Projects" element={<Profile />}></Route>
 			<Route path="/Blog" element={<Profile />}></Route>
+			<Route path="*" element={<Profile/>}></Route>
 			{/* <Route path="/Contact" element={<Profile />}></Route> */}
         </Routes>
 	</BrowserRouter>
