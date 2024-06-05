@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 import { Profile } from "./Pages/Profile";
 import { ProfileCard } from "./components/profile/ProfileCard";
 import { useState } from "react";
@@ -47,7 +47,7 @@ function App() {
 			<Route path="/Resume" element={<Profile />}></Route>
 			<Route path="/Projects" element={<Profile />}></Route>
 			<Route path="/Blog" element={<Profile />}></Route>
-			{/* <Route path="*" element={<Navigate to="/"/>}></Route> */}
+			<Route path="*" element={<Navigate to="/"/>}></Route>
         </Routes>
 	</BrowserRouter>
 	</div>
