@@ -14,6 +14,7 @@ export function Portfolio () {
 				<ProjectsCard link="https://github.com/h-hamdy/ft_transcendence" img="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/transcendence.png" time="ft_Transcendence" title="Cyber Pong is an Online Ping Pong Game"/>
 				<ProjectsCard link="https://github.com/h-hamdy/inception" img="https://raw.githubusercontent.com/h-hamdy/h-hamdy.github.io/main/src/assets/docker.png" time="Inception" title="Exploring Docker: Virtualizing Images"/>
 				<ProjectsCard link="" img="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/Splitz.png" time="Splitz" title="Splitz: Restaurant Bill and Order Management"/>
+				<ProjectsCard link="https://www.beautifulsound.xyz/" img="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/beautifulSound.png" time="Beautiful Sound" title="BeautifulSound For Better work"/>
 			</div>
 		</>
 	)
