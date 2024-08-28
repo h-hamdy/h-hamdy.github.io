@@ -49,9 +49,7 @@ export function About() {
                   November 2021 - 2024
                 </div>
                 <div className="lg:text-sm text-xs text-gray-300 pt-[10px]">
-                  Completed Common Core at 1337 School with a remarkable
-                  achievement, achieving a level of{" "}
-                  <span className="text-white text-sm">11.18</span>
+				Student at 1337 School, currently at level <span className="text-white text-sm">13.74</span>, with strong skills in software development.
                 </div>
               </div>
             </div>
