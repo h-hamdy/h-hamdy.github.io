@@ -24,7 +24,7 @@ export function ProfileCard() {
 
           <img
             className="border border-[#343838] bg-[#343838] object-cover custom-corner lg:w-[120px] w-[80px] h-[80px] lg:h-[120px] shadow-xl transform transition-transform duration-300 hover:scale-110"
-            src="src/assets/profissional.jpg"
+            src="https://raw.githubusercontent.com/h-hamdy/Portfolio/main/src/assets/profissional.jpg"
 			/>
 		  <div className="flex flex-col items-center justify-around gap-[15px] pt-[15px] lg:pt-0">
 
